@@ -6,4 +6,5 @@ numpy>=1.26.0
 scipy>=1.13.0
 osmnx>=1.9.0
 pyarrow>=16.0.0
+requests>=2.31.0
 pytest>=8.0.0

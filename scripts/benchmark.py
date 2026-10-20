@@ -107,7 +107,7 @@ def run_benchmarks() -> None:
             )
 
     df_res = pd.DataFrame(rows)
-    out_csv = sim.restaurants_df_path = "data/benchmark_results.csv"
+    out_csv = "data/benchmark_results.csv"
     df_res.to_csv(out_csv, index=False)
     print("=" * 85)
     print(f"Resultados experimentais salvos em: {out_csv}")

@@ -153,7 +153,7 @@ def create_app() -> Dash:
                     id="slider-std-dev",
                     min=200,
                     max=1200,
-                    step=100,
+                    step=50,
                     value=500,
                     marks={200: "200m", 500: "500m", 800: "800m", 1200: "1.2km"},
                     tooltip={"placement": "bottom", "always_visible": False},
